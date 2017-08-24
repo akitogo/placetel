@@ -9,6 +9,8 @@
  * the notify handler itself should not be used to implement you respose
  * USE YOUR OWN INTERCEPTOR in your own application, for sample responses see below
  *
+ * for further information see: https://github.com/akitogo/placetel
+ *
  */
 component extends="coldbox.system.Interceptor"{
 

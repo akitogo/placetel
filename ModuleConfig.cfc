@@ -48,7 +48,7 @@ component {
 	this.author 			= "";
 	this.webURL 			= "";
 	this.description 		= "";
-	this.version			= "1.0.0";
+	this.version			= "1.0.1";
 	// If true, looks for views in the parent first, if not found, then in the module. Else vice-versa
 	this.viewParentLookup 	= true;
 	// If true, looks for layouts in the parent first, if not found, then in module. Else vice-versa
@@ -99,7 +99,9 @@ component {
 
 		// Custom Declared Interceptors
 		interceptors = [
-			{class="#moduleMapping#.interceptors.notify"}
+// ATTENTION, do not use this interceptor
+// implement your own
+//			{class="#moduleMapping#.interceptors.notify"}
 		
 		];
 

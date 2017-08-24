@@ -2,7 +2,7 @@
  * This is a sample interceptor, the interception point are implemented in the notify handler
  *
  * So enter in placetel app your endpoint as
- * https://youdomain/index.cfm/placetel/notify
+ * https://yourdomain/index.cfm/placetel/notify
  *
  * the request which comes from placetel looks like: /index.cfm/placetel/notify?event=CallAccepted&from=017312345678&to=022129191999&call_id=f4591ba315d81671d7a06c2a3b4f963dafd119de39cb26edd8a6476676b2f447
  * 

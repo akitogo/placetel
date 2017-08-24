@@ -39,7 +39,7 @@ component{
 				return 'Event is not supported';
 		}
 		
-		// placetelResponse will be set within interceptoer
+		// placetelResponse will be set within interceptor
 		// which has to be implemented in custom module 
 		if(structKeyExists(prc,'placetelResponse') and isXml(prc.placetelResponse)){
 			event.renderData(

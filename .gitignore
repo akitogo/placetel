@@ -1,0 +1,6 @@
+/WEB-INF
+/SAVE
+/logs
+.project*
+.settings*
+.DS_Store

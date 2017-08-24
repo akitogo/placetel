@@ -1,0 +1,88 @@
+{
+    "name":"placetel",
+    "version":"1.0.0",
+    "author":"Aktiogo Team",
+    "location":"https://github.com/akitogo/placetel/archive/master.zip",
+    "directory":"",
+    "createPackageDirectory":true,
+    "packageDirectory":"",
+    "homepage":"https://github.com/akitogo/placetel",
+    "documentation":"",
+    "repository":{
+        "type":"GIT",
+        "URL":"https://github.com/akitogo/placetel.git"
+    },
+    "bugs":"",
+    "slug":"placetel",
+    "shortDescription":"Implements Placetel API and notify for Coldfusion / Coldbox",
+    "description":"Placetel is a German Voip Provider, with this api you can be notfied of calls and other events, you can do routing of phone calls",
+    "instructions":"",
+    "changelog":"",
+    "type":"modules",
+    "keywords":"Google,Translation,API",
+    "private":false,
+    "engines":[
+        {
+            "type":"",
+            "version":""
+        }
+    ],
+    "defaultEngine":"",
+    "defaultPort":0,
+    "projectURL":"",
+    "license":[
+        {
+            "type":"GPLv3",
+            "url":"https://github.com/akitogo/placetel/blob/master/LICENSE"
+        }
+    ],
+    "contributors":[
+        
+    ],
+    "dependencies":{
+        
+    },
+    "devDependencies":{
+        
+    },
+    "installPaths":{
+        
+    },
+    "scripts":{
+        
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ],
+    "testbox":{
+        "runner":[
+            {
+                "default":""
+            }
+        ],
+        "labels":[
+            
+        ],
+        "reporter":"",
+        "reporterResults":"",
+        "bundles":[
+            ""
+        ],
+        "directory":{
+            "mapping":"",
+            "recurse":true
+        },
+        "watchers":[
+            
+        ],
+        "notify":{
+            "emails":[
+                
+            ],
+            "growl":"",
+            "URL":""
+        }
+    }
+}

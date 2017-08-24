@@ -27,34 +27,34 @@ Use the notify handler to interact with incoming calls.
  - Implement you own intercepter, for example see interceptors/notify.cfc
  
 ```
-	function placetel_CallAccepted( event, interceptData ) {
-		var prc = event.getCollection(private=true);
-		var rc	= event.getCollection();
+function placetel_CallAccepted( event, interceptData ) {
+	var prc = event.getCollection(private=true);
+	var rc	= event.getCollection();
 
-//		prc.placetelResponse=Notify.reject();
+//	prc.placetelResponse=Notify.reject();
 
-//		prc.placetelResponse=Notify.reject("busy");
+//	prc.placetelResponse=Notify.reject("busy");
 
-//		prc.placetelResponse=Notify.hangup();
+//	prc.placetelResponse=Notify.hangup();
 
-//		prc.placetelResponse=Notify.queue(1234);
-	}
+//	prc.placetelResponse=Notify.queue(1234);
+}
 
 ```
 ### Interact with the api
  - call somebody
 ```
-		var myVoipAccount='xxxxx@blf.finotel.com';
-		var somebody='069999999'; 
+var myVoipAccount='xxxxx@blf.finotel.com';
+var somebody='069999999'; 
 
-		var ptc = getModel("PlacetelConnection@placetel");
-		ptc.setApiKey('YOUR API KEY GOES HERE');
+var ptc = getModel("PlacetelConnection@placetel");
+ptc.setApiKey('YOUR API KEY GOES HERE');
 
-		
-		// this initiate a call, ring your phone/voip client 
-		// and dial to somebody
-		var calling = getModel("InitiateCall@placetel");
-		calling.call(ptc,myVoipAccount,somebody);		
+
+// this initiate a call, ring your phone/voip client 
+// and dial to somebody
+var calling = getModel("InitiateCall@placetel");
+calling.call(ptc,myVoipAccount,somebody);		
 ```
 ## Written by
 www.akitogo.com
